@@ -1,0 +1,5 @@
+---
+  - name: Dump All Variables
+    action: template src=templates/dumpall.j2 dest=/tmp/ansible.all
+    changed_when: false
+
